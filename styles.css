@@ -270,13 +270,10 @@ a{color:inherit}
   }
 }
 
-
-
 .section{
   padding: clamp(26px, 3.5vw, 44px) 0; /* tighter */
   border-top: none;                   /* no lines */
 }
-
 
 .section-head{
   display:flex;
