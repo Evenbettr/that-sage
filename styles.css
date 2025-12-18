@@ -1,15 +1,21 @@
 :root{
-  --bg:#F2EFEA;        /* bone */
-  --ink:#1E1E1C;       /* charcoal */
-  --muted:#5E625B;     /* muted text */
-  --sage:#46634F;      /* builder accent */
-  --line:rgba(30,30,28,.12);
+  /* Core palette */
+  --bg: #F2EFEA;        /* bone */
+  --ink: #1E1E1C;       /* charcoal */
+  --muted: #5E625B;     /* muted gray */
+  --sage: #46634F;      /* SAGE GREEN (this is the key one) */
+  --line: rgba(30,30,28,.12);
 
+  /* Layout */
   --max: 980px;
   --pad: clamp(18px, 3vw, 28px);
   --r: 14px;
-
   --shadow: 0 10px 30px rgba(30,30,28,.06);
+
+  /* Typography */
+  --sans: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+}
 
   /* Fonts */
   --sans: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
