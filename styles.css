@@ -327,7 +327,35 @@ h2{
   gap:12px;
   flex-wrap:wrap;
   margin-top:18px;
+}.page{
+  padding-bottom: 30px;
 }
+
+.page-hero{
+  padding: clamp(26px, 4vw, 44px) 0;
+}
+
+.page-subhead{
+  margin: 8px 0 0;
+  color: var(--muted);
+  max-width: 70ch;
+}
+
+.prose{
+  max-width: 78ch;
+}
+
+.prose h2{
+  margin-top: 0;
+}
+
+.prose p{
+  margin: 10px 0 0;
+}
+.prose p:first-of-type{
+  margin-top: 0;
+}
+
 
 .callout{
   border:1px solid var(--line);
