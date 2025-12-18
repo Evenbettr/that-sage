@@ -152,8 +152,10 @@ a{color:inherit}
   box-shadow:var(--shadow);
 }
 
+
 .hero h1{
   margin:0 0 12px;
+  color: var(--sage);
   font-size: clamp(32px, 4.6vw, 52px);
   line-height:1.05;
   letter-spacing:-.7px;
