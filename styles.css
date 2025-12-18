@@ -52,13 +52,30 @@ p{
   color: var(--muted);
 }
 
-h1{ line-height: 1.05; }
-h2{ line-height: 1.12; }
-h3{ line-height: 1.18; }
-p{
-  color: var(--muted);
-  font-size: 16px;
+h1{
+  font-family: var(--serif);
+  font-size: clamp(36px, 5vw, 56px);
+  line-height: 1.05;
+  font-weight: 600;
+  color: var(--sage);
 }
+
+h2{
+  font-family: var(--serif);
+  font-size: clamp(26px, 3vw, 34px);
+  line-height: 1.12;
+  font-weight: 600;
+  color: var(--sage);
+}
+
+h3{
+  font-family: var(--serif);
+  font-size: clamp(20px, 2.4vw, 26px);
+  line-height: 1.18;
+  font-weight: 600;
+  color: var(--sage);
+}
+
 
 
 @media (min-width: 700px){
