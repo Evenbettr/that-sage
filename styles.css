@@ -50,7 +50,9 @@ h1, h2, h3{
 
 p{
   color: var(--muted);
+  font-size: 16px;
 }
+
 
 h1{
   font-family: var(--serif);
