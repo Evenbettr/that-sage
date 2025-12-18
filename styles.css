@@ -261,14 +261,16 @@ a{color:inherit}
 }
 
 /* Mobile */
-@media (max-width: 860px){
+@media (max-width: 700px){
   .featured-inner{
-    grid-template-columns: 1fr;
+    align-items:center;
   }
   .featured-media{
-    aspect-ratio: 16 / 10;
+    width: 120px;
   }
 }
+
+
 
 .section{
   padding: clamp(26px, 3.5vw, 44px) 0; /* tighter */
