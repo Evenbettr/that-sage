@@ -38,13 +38,14 @@ body{
   letter-spacing:.2px;
 }
 h1, h2, h3{
+  h1, h2, h3{
   font-family: var(--serif);
   color: var(--sage);
   font-weight: 700;
   letter-spacing: -0.3px;
-  color: var(--ink);
   margin: 0 0 .6rem;
-  }
+}
+
 
 
 p{
