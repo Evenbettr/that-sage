@@ -203,9 +203,10 @@ a{color:inherit}
 }
 
 .section{
-  padding: clamp(50px, 7vw, 86px) 0;
-  border-top:1px solid var(--line);
+  padding: clamp(26px, 3.5vw, 44px) 0; /* tighter */
+  border-top: none;                   /* no lines */
 }
+
 
 .section-head{
   display:flex;
@@ -214,6 +215,17 @@ a{color:inherit}
   gap:16px;
   margin-bottom:18px;
 }
+.section p{
+  margin: 10px 0 0;
+}
+.section p:first-of-type{
+  margin-top: 0;
+}
+
+.section p{
+  max-width: 70ch;
+}
+
 
 h2{
   margin:0;
