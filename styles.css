@@ -1,13 +1,43 @@
 :root{
-  --bg:#F2EFEA;        /* bone */
-  --ink:#1E1E1C;       /* charcoal */
-  --muted:#5E625B;     /* muted text */
-  --sage:#46634F;      /* your builder’s accent color */
-  --line:rgba(30,30,28,.12);
+:root{
+  /* Color scheme (matches the builder vibe) */
+  --bg: #F2EFEA;          /* bone */
+  --ink: #1E1E1C;         /* soft charcoal */
+  --muted: #5E625B;       /* gentle gray text */
+  --sage: #46634F;        /* deep sage (from your builder header accent) */
+  --line: rgba(30,30,28,.12);
 
-  --max: 980px;
-  --pad: clamp(18px, 3vw, 28px);
-  --r: 14px;
+  /* Typography */
+  --sans: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+}
+
+/* Global */
+body{
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  line-height: 1.55;
+  letter-spacing: .2px;
+}
+
+/* Headings = elegant serif */
+h1,h2,h3{
+  font-family: var(--serif);
+  letter-spacing: -.2px;
+  margin: 0 0 .6rem;
+}
+
+/* Body copy = clean Inter */
+p, li, a{
+  font-family: var(--sans);
+}
+
+/* Accent color */
+a, .accent{
+  color: var(--sage);
+}
+
 
   --shadow: 0 10px 30px rgba(30,30,28,.06);
 
